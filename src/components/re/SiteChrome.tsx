@@ -1,5 +1,7 @@
 import { CONTACT_URL } from "./links";
 
+const BRAND_NAME = "Hearthline";
+
 const nav = [
   { href: "#services", label: "Services" },
   { href: "#workflows", label: "Workflows" },
@@ -12,7 +14,7 @@ export function SiteHeader() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-ink-border bg-ink/70 text-ink-foreground backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 md:px-8">
         <a href="https://eazisols.com" className="font-display text-xl tracking-tight">
-          Eazisols<span className="text-accent">.</span>
+          {BRAND_NAME}<span className="text-accent">.</span>
         </a>
         <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
           {nav.map((n) => (
@@ -37,7 +39,7 @@ export function SiteFooter() {
     <footer className="border-t border-ink-border bg-ink text-ink-muted">
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-10 text-sm md:flex-row md:items-center md:justify-between md:px-8">
         <p className="font-display text-lg text-ink-foreground">
-          Eazisols<span className="text-accent">.</span>
+          {BRAND_NAME}<span className="text-accent">.</span>
         </p>
         <div className="flex gap-6">
           <a href="https://eazisols.com" className="hover:text-ink-foreground">eazisols.com</a>
