@@ -1,6 +1,6 @@
 import { CONTACT_URL } from "./links";
 
-const BRAND_NAME = "Hearthline";
+const BRAND_NAME = "Real Estate";
 
 const nav = [
   { href: "#services", label: "Services" },
