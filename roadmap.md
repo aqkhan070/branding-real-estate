@@ -1,0 +1,6 @@
+- [x] Animated services section
+- [x] Better photos/screens in workflow demos
+- [x] AI call demo: booking + WhatsApp/email confirmation
+- [x] PrimeListe: add screenshots + full feature list
+- [x] Sukna: second case study with real screenshots
+- [x] Remove footer disclaimer
